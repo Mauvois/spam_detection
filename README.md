@@ -11,12 +11,14 @@
 
 -[ ] The networks can be Perceptrons or MLPs (no RNN)
 
-- [ ] Users can choose which version they wish to use
+- [ ] Users can choose which version they wish to use (tf or sklearn)
 
-- [ ] A user interface allows the entry of new messages to classify and the version of the model (Scikit-Learn or TensorFlow) they want to use
+- [ ] A user interface allows the entry of new messages to classify.
 
 - [x] Upload the code of the application on GitHub and invite your teammates as collaborators
 
 
+IDEES:
 
+Nous avons besoin d'une interface simple. Nous utiliserons Streamlit. Io suffira d'une input box pour écrire le sms à classifier, un bouton 'analyser', et un selector pour le modèle et en option un tableau 'historique des tests'.
 
