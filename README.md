@@ -5,17 +5,29 @@
 
 #### TODO
 
-- [ ] Apply the necessary NLP preprocessing to prepare the data for the classification algorithms
+- [ ] Test models (AUC ROC)
 
-- [ ] The detector must integrate two versions: one developed with Scikit-Learn and the other with TensorFlow
+- [ ] Notion documentation
 
--[ ] The networks can be Perceptrons or MLPs (no RNN)
+- [x] Apply the necessary NLP preprocessing to prepare the data for the classification algorithms
 
-- [ ] Users can choose which version they wish to use (tf or sklearn)
+- [x] The detector must integrate two versions: one developed with Scikit-Learn and the other with TensorFlow
 
-- [ ] A user interface allows the entry of new messages to classify.
+- [x] The networks can be Perceptrons or MLPs (no RNN)
+
+- [x] Users can choose which version they wish to use (tf or sklearn)
+
+- [x] A user interface allows the entry of new messages to classify.
 
 - [x] Upload the code of the application on GitHub and invite your teammates as collaborators
+
+- [ ] Model Distilbert
+
+- [x] HF pretrained model
+
+
+
+
 
 
 IDEES:
