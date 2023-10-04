@@ -5,6 +5,12 @@ import pandas as pd
 from datetime import datetime
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 
+st.image(
+            "premium_photo-1663011300310-736f38ad5bd1.png",
+            width=600 # Manually Adjust the width of the image as per requirement
+        )
+
+
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
 
 st.title('Spam Detector')
