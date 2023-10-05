@@ -6,8 +6,8 @@ from datetime import datetime
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 
 st.image(
-            "premium_photo-1663011300310-736f38ad5bd1.png",
-            width=600 # Manually Adjust the width of the image as per requirement
+            "photo.png",
+            width=700 # Manually Adjust the width of the image as per requirement
         )
 
 
@@ -18,7 +18,7 @@ st.title('Spam Detector')
 if 'df_history' not in st.session_state:
     st.session_state.df_history = pd.DataFrame(columns=['Time', 'SMS', 'Result', 'Model'])
 
-type_analyse = st.radio("Model Choice", ('Perceptron', 'TensorFlow', 'NaiveBayes', 'Tiny Bert'))
+type_analyse = st.radio("Choose your model", ('Perceptron', 'TensorFlow', 'NaiveBayes', 'Tiny Bert'))
 
 
 text = st.text_area("SMS to classify", "reply to win £100 weekly! where will the 2006 fifa world cup be held? send stop to 87239 to end service")
